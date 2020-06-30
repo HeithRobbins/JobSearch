@@ -1,0 +1,24 @@
+{
+  "name": "jobsearch",
+  "version": "1.0.0",
+  "description": "Job search listing web app using Indreed",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "job",
+    "indeed",
+    "indreed"
+  ],
+  "author": "Heith Robbins <heith.robbins@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
